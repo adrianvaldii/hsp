@@ -1,0 +1,57 @@
+/* all of navbar */
+
+/* top navbar */
+.navbar-poli{
+  background: linear-gradient(to right, rgb(94, 140, 244) , rgb(99, 215, 139) );
+  border-radius: 0;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
+  color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: rgb(232, 232, 232);
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: rgb(232, 232, 232);
+}
+
+/* side navbar */
+.side-navbar{
+  background-color: #FFF;
+  padding-bottom: 30px;
+}
+
+.side-navbar ul li{
+  list-style-type: none;
+  padding-top: 20px;
+  margin-left: -35px;
+  font-weight: bold;
+}
+
+.side-navbar ul li a{
+  color: #333;
+  text-decoration: none;
+}
+
+.side-navbar ul li a:hover{
+  color: rgb(0, 85, 231);
+}
+
+.side-navbar ul li ul li{
+  margin-left: -30px;
+  font-weight: normal;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+.side-navbar ul li ul li a{
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+}
+
+.side-navbar ul li ul li a:hover{
+  color: rgb(0, 85, 231);
+}
